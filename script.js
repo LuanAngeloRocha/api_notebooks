@@ -4,7 +4,7 @@ const content = document.getElementById('content');
 const image = document.getElementById('img');
 
 const fetchApi = (value) => {
-    const result = fetch(`https://5000-daltonfranc-apinotebook-0wnim7zgtg5.ws-us104.gitpod.io/api/notebooks/${value 
+    const result = fetch(`https://5000-luanangelor-apinotebook-xeqkx712l9g.ws-us104.gitpod.io/api/notebooks/${value 
 }`).then((res) => res.json()).then((data) => {console.log(data); return data;
 });
 
